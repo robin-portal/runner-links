@@ -1,0 +1,63 @@
+/* Centrage complet */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* Alignement vertical des éléments */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espace serré entre les éléments */
+}
+
+/* Image carrée */
+.top-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+/* Style du Titre "Runner" */
+h1 {
+    margin: 0;
+    font-size: 28px;
+    text-transform: uppercase; /* Optionnel : met le titre en majuscules pour le style */
+    letter-spacing: 2px;
+}
+
+/* Tableau */
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin-top: 5px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 6px 12px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+/* Liens */
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Signature */
+h5 {
+    margin-top: 10px;
+    font-weight: normal;
+    color: #666;
+    font-size: 11px;
+}
